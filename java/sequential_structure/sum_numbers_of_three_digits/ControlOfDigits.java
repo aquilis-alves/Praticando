@@ -19,25 +19,13 @@ public class ControlOfDigits {
 
     void limitOfDigit (int limit, int numberOne, int numberTwo, int numberThree) {
 
-        if (whatNumberOfDigits(numberOne) != limit) {
+        int numbersArray = {numberOne, numberTwo, numberThree}
+
+        for (int numbers : numbersArray) {
 
             System.out.println("The program requires number of " + limit + " digits");
             System.exit(0);
-
-        }
-
-        if (whatNumberOfDigits(numberTwo) != limit) {
-
-            System.out.println("The program requires number of " + limit + " digits");
-            System.exit(0);
-
-        }
-
-        if (whatNumberOfDigits(numberThree) != limit) {
-
-            System.out.println("The program requires number of " + limit + " digits");
-            System.exit(0);
-
+            
         }
 
     }
