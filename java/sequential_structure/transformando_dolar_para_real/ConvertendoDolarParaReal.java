@@ -12,9 +12,9 @@ public class ConvertendoDolarParaReal {
         System.out.print("qual o valor que voce tem em dolar: ");
         double valorEmDolar = input.nextDouble();
 
-        double valorEmReais = valorEmDolar * cotacaoDoDolar;
+        double valueInReal = valorEmDolar * cotacaoDoDolar;
 
-        System.out.println("o valor em reais é: " +valorEmReais);
+        System.out.println("o valor em reais é: " +valueInReal);
 
     }
 }
