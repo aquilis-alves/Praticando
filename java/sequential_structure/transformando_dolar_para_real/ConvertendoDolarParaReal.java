@@ -6,15 +6,15 @@ public class ConvertendoDolarParaReal {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("qual a cotacao atual do dolar: ");
-        double cotacaoDoDolar = input.nextDouble();
+        System.out.print("What a cotatio of Dollar: ");
+        double cotationOfDollar = input.nextDouble();
 
-        System.out.print("qual o valor que voce tem em dolar: ");
-        double valorEmDolar = input.nextDouble();
+        System.out.print("What value in dollar you have: ");
+        double valueInDollar = input.nextDouble();
 
-        double valueInReal = valorEmDolar * cotacaoDoDolar;
+        double valueInReal = valueInDollar * cotationOfDollar;
 
-        System.out.println("o valor em reais é: " +valueInReal);
+        System.out.println("the value in Real: " +valueInReal);
 
     }
 }
